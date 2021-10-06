@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: cursive, sans-serif;
+  background: rgb(207, 216, 28);
+  background-image: url('../img/huellas.png');
+  background-repeat: no-repeat;
+}
+
+.section {
+  padding: 20px;
+}
+
+h1{
+  margin: 40px 0 30px;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 2px 2px 20px black, 2px 2px 50px black;
+  text-align: center;
+  animation: title_animation 2s infinite alternate linear;
+}
+
+.img-dog {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+  margin: 40px auto;
+  border-radius: 3px;
+  background: black;
+  box-shadow: 0px 4px 10px rgb(0, 0, 0);
+  object-fit: contain;
+  transition: 0.5s;
+}
+
+.loading {
+  display: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.loading-img {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#list_dogs {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form button {
+  margin: 0;
+}
+
+input {
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.449);
+}
+
+button {
+  display: block;
+  padding: 15px 20px;
+  margin:  0 auto;
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive, sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.449);
+  cursor: pointer;
+  transition: .5s;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-dog {
+    width: 500px;
+    height: 400px;
+  }
+  #list_dogs .img-dog {
+    width: 420px;
+    height: 420px;
+  }
+
+}
+
+
+@keyframes title_animation {
+  from {
+    letter-spacing: 0px;
+  }
+  to {
+    letter-spacing: 2px;
+  }
+}

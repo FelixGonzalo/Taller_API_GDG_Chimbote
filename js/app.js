@@ -1,0 +1,5 @@
+const list_dogs = document.getElementById("list_dogs")
+const random_dog = document.getElementById("random_dog")
+const loading = document.getElementById("loading")
+const btn_random_dog = document.getElementById("btn_random_dog")
+const form_random_doglist = document.getElementById("form_random_doglist")
