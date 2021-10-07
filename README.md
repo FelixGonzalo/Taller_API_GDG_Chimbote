@@ -1,6 +1,8 @@
 # Taller_API_GDG_Chimbote
 Ejercicio del taller ¿Qué es una API?  ejemplo práctico con JavaScript
 
+🤓 [Prueba el resultado] (https://felixgonzalo.github.io/Taller_API_GDG_Chimbote/)
+
 ## Redes sociales de GDG Chimbote:
 * [GDG Chimbote](https://gdg.community.dev/gdg-chimbote/).
 * [Youtube](https://www.youtube.com/channel/UC1piTFxLbea8glLqYTzlCLA).
